@@ -66,7 +66,7 @@ class SensorLuz : AppCompatActivity(), SensorEventListener {
     override fun onSensorChanged(event: SensorEvent?) {
         if (event?.sensor?.type == Sensor.TYPE_LIGHT) {
             val lx = event.values[0]
-            txtLx.text = "Lumenes: $lx\n${brightness(lx)}"
+            txtLx.text = "Lúmenes: $lx\n${brightness(lx)}"
 
             when (lx) {
                 in 0.0..10.0 -> imgLx.setImageResource(R.drawable.anochecer)

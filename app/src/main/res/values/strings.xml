@@ -5,7 +5,7 @@
     <string name="red_celular">Red telefónica</string>
     <string name="sensor_luz">Sensor de luz</string>
     <string name="red_wifi">Red inálambrica</string>
-    <string name="Autor">Elaborado por: Edgar Andres Hernandez Avila, estudiante de Ingeniería en Redes y Telecomunicaciones</string>
+    <string name="Autor">Elaborado por: Edgar Andrés Hernández Ávila, estudiante de Ingeniería en Redes y Telecomunicaciones</string>
 
     <string name="xyz_imagen">Plano tridimensional X Y Z</string>
     <string name="Título_acelerometro">Lectura de Acelerómetro</string>
@@ -22,8 +22,8 @@
 
     <string name="Título_WiFi">Datos sobre conexión WiFi</string>
 
-    <string name="Boton_Guardar">Guardar ultimos datos</string>
-    <string name="Boton_Mostrar">Mostrar ultimos datos</string>
+    <string name="Boton_Guardar">Guardar últimos datos</string>
+    <string name="Boton_Mostrar">Mostrar últimos datos</string>
     <string name="Boton_Borrar">Borrar datos guardados</string>
 
     <string name="Datos_guardados">Datos guardados</string>
