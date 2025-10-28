@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".MainActivity">
+    <!-- -->
+
+    <ImageView
+        android:layout_width="208dp"
+        android:layout_height="321dp"
+        android:contentDescription="@string/texto_imagen"
+        android:src="@drawable/my_image" />
+
+    <Button
+        android:id="@+id/Acelerómetro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Rojo"
+        android:text="@string/Acelerómetro"
+        />
+
+    <Button
+        android:id="@+id/Red_Celular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/red_celular"
+        />
+
+    <Button
+        android:id="@+id/SensorLuz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Naranja"
+        android:text="@string/sensor_luz"
+        />
+
+    <Button
+        android:id="@+id/Red_Wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Verde"
+        android:text="@string/red_wifi"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/TextView_Autor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Autor"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        />
+</LinearLayout>

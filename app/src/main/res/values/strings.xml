@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Device Insight</string>
+    <string name="texto_imagen">Logo Ingeniería en Redes y Telecomunicaciones</string>
+    <string name="Acelerómetro">Acelerómetro</string>
+    <string name="red_celular">Red telefónica</string>
+    <string name="sensor_luz">Sensor de luz</string>
+    <string name="red_wifi">Red inálambrica</string>
+    <string name="Autor">Elaborado por: Edgar Andres Hernandez Avila, estudiante de Ingeniería en Redes y Telecomunicaciones</string>
+
+    <string name="xyz_imagen">Plano tridimensional X Y Z</string>
+    <string name="Título_acelerometro">Lectura de Acelerómetro</string>
+    <string name="Error_acelerometro">Error en lectura del sensor</string>
+    <string name="Sensor_detenido">Lectura detenida</string>
+    <string name="Detener">Detener lectura</string>
+    <string name="Reanudar">Reanudar</string>
+
+    <string name="Luz">Luminosidad</string>
+    <string name="Título_Luz">Lectura de sensor de luz</string>
+
+    <string name="Título_Telefonia">Datos sobre operadora telefónica</string>
+    <string name="Antena_imagen">Antena telefonía celular</string>
+
+    <string name="Título_WiFi">Datos sobre conexión WiFi</string>
+
+    <string name="Boton_Guardar">Guardar ultimos datos</string>
+    <string name="Boton_Mostrar">Mostrar ultimos datos</string>
+    <string name="Boton_Borrar">Borrar datos guardados</string>
+
+    <string name="Datos_guardados">Datos guardados</string>
+    <string name="Datos_borrados">Datos borrados</string>
+    <string name="Datos_vacios">No hay datos guardados</string>
+
+</resources>

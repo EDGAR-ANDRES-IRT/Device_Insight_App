@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".SensorLuz"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/LuzImagen"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:contentDescription="@string/Luz"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/anochecer" />
+
+        <TextView
+            android:id="@+id/Título_Luz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Título_Luz"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView_Luz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/TextView_DatosJSON"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="50dp" />
+
+        <Button
+            android:id="@+id/Boton_Detener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/Naranja"
+            android:text="@string/Detener"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/Boton_Guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:backgroundTint="@color/Naranja"
+            android:text="@string/Boton_Guardar"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/Boton_Mostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:backgroundTint="@color/Naranja"
+            android:text="@string/Boton_Mostrar"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/Boton_Borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:backgroundTint="@color/Naranja"
+            android:text="@string/Boton_Borrar"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</ScrollView>

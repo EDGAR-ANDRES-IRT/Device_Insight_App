@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".Red_WiFi">
+
+    <TextView
+        android:id="@+id/TextView_Red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Título_WiFi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/TextView_SSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/TextView_IP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/TextView_BSSID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/TextView_DatosJSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding = "20dp"/>
+
+    <Button
+        android:id="@+id/Boton_Guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:backgroundTint="@color/Verde"
+        android:text="@string/Boton_Guardar"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/Boton_Mostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:backgroundTint="@color/Verde"
+        android:text="@string/Boton_Mostrar"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/Boton_Borrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:backgroundTint="@color/Verde"
+        android:text="@string/Boton_Borrar"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
