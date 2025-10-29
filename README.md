@@ -1,20 +1,20 @@
 ## Aplicación "Device Insight"
-### Elaborado por: Edgar Andres Hernandez Avila para la materia Programación de dispositivos móviles
+### Elaborado por: Edgar Andrés Hernández Ávila para la materia Programación de dispositivos móviles
 
 <img width="240" height="240" alt="Icono de la aplicación Device Insight" src="https://github.com/user-attachments/assets/bab074d0-c7d1-45b8-b3c0-2945cd1b0be2" />
 
 ## Descripcion general del proyecto
-Se desarrolla una aplicación en el entorno de desarrollo de Android Studio para conocer los fundamentos básicos del lenguaje Kotlin. La aplicación fue probada en un dispositivo "OnePlus-Nord 2500" con Android 15. 
+Se desarrolla una aplicación en el entorno de desarrollo de Android Studio para conocer los fundamentos básicos del lenguaje Kotlin. La aplicación fue probada en un dispositivo "OnePlus-Nord 2500" con Android 12. 
 
 <img width="auto" height="550" alt="Pantalla inicio" src="https://github.com/user-attachments/assets/538cac7b-4957-4370-b99c-9369a690c799" />
 
 
 ## Sensores utilizados
-La aplicación <b>*"Device Insight"*</b> hace uso del sensor de luz y acelerómetro, sensores que son comunmente incluidos en los dispositivos actuales. En las actividades "Acelerometro" y "SensorLuz" se registra constantemente una lectura de cada sensor para mostrar los valores obtenidos en pantalla. 
+La aplicación <b>*"Device Insight"*</b> hace uso del sensor de luz y acelerómetro, sensores que son comunmente incluidos en los dispositivos actuales. En las actividades "Acelerómetro" y "SensorLuz" se registra constantemente una lectura de cada sensor para mostrar los valores obtenidos en pantalla. 
 
 <img width="auto" height="550" alt="Pantalla acelerómetro" src="https://github.com/user-attachments/assets/5ea0b950-602a-4c28-99c2-a4fce10db825" />
 
-La actividad <b>*"Acelerometro"*</b> simplemente muestra los valores (X, Y, Z) sobre la orientación del dispositivo. Para variar estos valores simplemente puede hacer girar el télefono para ver los cambios. Con el botón "Detener lectura" se pausa la lectura del sensor, para volver a registrar lecturas, vuela a presionar el bóton.
+La actividad <b>*"Acelerómetro"*</b> simplemente muestra los valores (X, Y, Z) sobre la orientación del dispositivo. Para variar estos valores simplemente puede hacer girar el télefono para ver los cambios. Con el botón "Detener lectura" se pausa la lectura del sensor, para volver a registrar lecturas, vuelva a presionar el bóton.
 
 <img width="auto" height="550" alt="Pantalla sensor de luz" src="https://github.com/user-attachments/assets/0826df81-a2c4-4966-9471-6f9c6107e420" />
 
